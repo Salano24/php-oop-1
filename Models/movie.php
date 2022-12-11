@@ -16,9 +16,9 @@ class Movie
       public function longOrShort($duration)
       {
             if ($duration > '120') {
-                  $this->type = 'long film';
+                  $this->type = 'Long film';
             } else {
-                  $this->type = 'short film';
+                  $this->type = 'Short film';
             }
       }
 };
